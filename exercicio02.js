@@ -1,5 +1,8 @@
 const prompt = require("prompt-sync")();
 
+//Construa uma função que receba uma data no formato DD/MM/AAAA e devolva uma string no formato 'D de mesPorExtenso de AAAA'.
+//Valide a data e retorne NULL caso a data seja inválida.
+
 function datas(d, m, a){
 
     let mes = ["0","Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
