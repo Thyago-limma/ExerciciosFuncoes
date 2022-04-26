@@ -6,8 +6,8 @@ function calculo(num1, num2, res){
     return operacoes[res];
 }
 
-let a1 = +prompt("Digite um número: ");
-let a2 = +prompt("Digite outro número: ");
+let a = +prompt("Digite um número: ");
+let b = +prompt("Digite outro número: ");
 
 console.log(`Digite:
 0 para soma;
@@ -15,6 +15,6 @@ console.log(`Digite:
 2 para multiplicação;
 3 para divisão` );
 
-let a3 = +prompt();
+let c = +prompt();
 
-console.log(calculo(a1, a2, a3))
+console.log(calculo(a, b, c))
